@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vet Clinic</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/styles.min.css"> -->
+</head>
+<body>
+
+<header class="header">
+
+<!-- TODO TOP-HEADER  -->
+
+<div class="top-side-header">
+  <div class="top-side-header__container container">
+    <address class="ts-header__addres">
+      г. Мариуполь, проспект Победы, 48а
+    </address>
+
+    <ul class="ts-header__list">
+      <li class="ts-header__item item-phone">
+        <a href="tel:0676347574" class="ts-header__link">(067) 634 -75 - 74</a>
+      </li>
+      <li class="ts-header__item">
+        <a href="tel:0637570131" class="ts-header__link">(0637) 57 - 01 - 31</a>
+      </li>
+      <li class="ts-header__item">
+        <a href="tel:0982664389" class="ts-header__link">(098) 266 - 43 - 89</a>
+      </li>
+    </ul>
+
+  <ul class="ts-header__list--time">
+    <li class="ts-header__item--time">
+      <span class="item-time">Пн - Пт</span>
+  <time  datetime="8:00" class="ts-header__time--time">
+          8:00</time> - <time>18:00</time>
+      </li>
+      <li class="ts-header__item--time">
+        <span> Сб - Вс</span>
+        <time  datetime="8:00" class="ts-header__time--time">
+          8:00</time> - <time>18:00</time>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- TODO NAV  -->
+
+  <nav class="nav">
+    <div class="nav__container container">
+      <a href="index.html" class="logo__link">
+        <img src="img/logo-vet.svg" alt="logo of site" class="nav__img"></a>
+
+        <ul class="nav__list">
+          <li class="nav__item ">
+            <span class="nav-item__active"></span>
+            <a class="nav__link" href="#">Главная</a>
+          </li>
+          <li class="nav__item">
+            <span class=""></span>
+            <a class="nav__link" href="#">О Клинике</a>
+          </li>
+          <li class="nav__item">
+            <span class=""></span>
+            <a class="nav__link" href="#">Наши Услуги</a>
+          </li>
+          <li class="nav__item ">
+            <span class=""></span>
+            <a class="nav__link" href="#">Полезные Статьи</a>
+          </li>
+          <li class="nav__item">
+            <span class=""></span>
+            <a class="nav__link" href="#">FAQ</a>
+          </li>
+          <li class="nav__item ">
+            <span class=""></span>
+            <a class="nav__link" href="#">Контакты</a>
+          </li>
+        </ul>
+
+      <div class="nav__question">
+        <a href="#" class="nav-question__link">Задать вопрос</a>
+      </div>
+
+    </div>
+
+  </nav>
+
+</header>
+
+<main class="main">
+
+<!-- TODO HERO  -->
+
+<section class="hero">
+
+  <div class="hero__container container">
+
+    <div class="hero__box">
+
+      <h1 class="hero__title">
+        Мы заботимся о
+        <span>ваших питомцах!</span>
+      </h1>
+      <p class="hero__text">
+        Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по
+        лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике
+        сделают все для того, чтобы быстро, эффективно и максимально безболезненно
+        выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.
+      </p>
+
+      <a href="#" class="button button--black hero__button">Наши услуги</a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- TODO QUOTES  -->
+
+<section class="quotes">
+
+  <div class="quotes__container container">
+    <div class="quotes__box">
+
+      <blockquote class="quotes__blockquote">
+        Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу.
+        Здоровье и благополучие Ваших животных очень важно для нас и мы стремимся
+        оказать наилучшую возможную ветеринарную помощь.
+      </blockquote>
+    </div>
+    <p class="quotes__text">
+      Оржоникидзевская Ветеринарная клиника
+    </p>
+  </div>
+
+</section>
+
+<!-- TODO SERVICE  -->
+
+<section class="service">
+
+<div class="service__container container">
+
+  <h2 class="service__title">
+    Наши услуги
+  </h2>
+  <div class="service__bottom">
+    <button class="slide slide--left"></button>
+    <div class="service__box">
+
+      <ul class="service__list service__list--shown">
+        <li class="service__item  ">
+          <a href="#" class="service__link item__link--doctor__man">
+            <p class="service__text">Первичный осмотр</p>
+          </a>
+
+        </li>
+
+        <li class="service__item  ">
+          <a href="#" class="service__link item__link--doctor__woman">
+            <p class="service__text">Первичный осмотр</p>
+          </a>
+        </li>
+        <li class="service__item  ">
+          <a href="#" class="service__link item__link--surgery">
+            <p class="service__text">Хирургическое вмешательство</p>
+          </a>
+        </li>
+        <li class="service__item ">
+          <a href="#" class="service__link item__link--dermotology">
+            <p class="service__text">Дерматология</p>
+          </a>
+        </li>
+        <li class="service__item ">
+          <a href="#" class="service__link item__link--laboratory">
+            <p class="service__text">Лабораторная диагностика</p>
+          </a>
+        </li>
+        <li class="service__item ">
+          <a href="#" class="service__link item__link--ophthomology">
+            <p class="service__text">Офтальмология</p>
+          </a>
+        </li>
+
+        <li class="service__item  ">
+          <a href="#" class="service__link item__link--ultrasound">
+            <p class="service__text">УЗИ диагностика
+            </p>
+          </a>
+        </li>
+        <li class="service__item  ">
+          <a href="#" class="service__link item__link--chipping">
+            <p class="service__text">Чипирование</p>
+          </a>
+        </li>
+        <li class="service__item  ">
+          <a href="#" class="service__link item__link--passport">
+            <p class="service__text">Международные паспорта</p>
+          </a>
+        </li>
+        <li class="service__item ">
+          <a href="#" class="service__link item__link--vaccine">
+            <p class="service__text">Вакцинация</p>
+          </a>
+        </li>
+        <li class="service__item ">
+          <a href="#" class="service__link item__link--stomatology">
+            <p class="service__text">Стоматология</p>
+          </a>
+        </li>
+        <li class="service__item ">
+          <a href="#" class="service__link item__link--calling">
+            <p class="service__text">Вызов на дом</p>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <button class="slide slide--right"></button>
+  </div>
+
+<ul class="service__list--active">
+  <li class="service__item--active">
+    <div class="service__box--active">
+      <img
+      src="img/img-cat-looking.jpg"
+      alt="img of cat"
+      class="service__img--sctive">
+      <div class="service-active__box">
+        <h3 class="service__title--active">Первичный осмотр</h3>
+        <p class="service__text--active">По условиям акции в нашей клинике
+          предоставляетса безплатная услуга “Дневной стационар” которая позволяет
+          экономить Ваше время. Вы имеете возможность оставить у нас.</p>
+          <p class="service__text--active">По условиям акции в нашей клинике
+            предоставляетса безплатная услуга “Дневной стационар” которая позволяет
+            экономить Ваше время. Вы имеете возможность оставить у нас.</p>
+            <a href="" class="button button--orange service__button--active service__cash">Узнать цену</a>
+            <a href="" class="button button--black service__button--active service__doc">Записаться на приём</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+<!-- TODO NEWS  -->
+
+<section class="news">
+
+  <div class="news__container container">
+
+  <h3 class="news__title">
+    Будь в курсе событий
+  </h3>
+
+<div class="news-form__box">
+  <form class="news__form" action="https://echo.htmlacademy.ru" method="POST">
+    <label for="email" class="visually-hidden">
+      gmail</label>
+    <input type="email" class="news__input" name="email" id="email" placeholder="Укажите Ваш email адрес" required="required">
+    <button class="button button--black news__button">Подписаться</button>
+  </form>
+</div>
+
+  </div>
+
+</section>
+
+<!-- TODO RULES  -->
+
+<section class="rules">
+
+<div class="rules__container container">
+
+  <h3 class="rules__title">
+    Полезные статьи
+  </h3>
+  
+  <ul class="rules__list">
+    <li class="rules__item item-ultra-dental ">
+      <img src="img/img-cat-ultra-dental.jpg" class="rules__img" alt="img of cat">
+      <div class="rules__box">
+      <time datetime="29-08-2020">29.08.2020</time>
+      <h4 class="item-rules__title ">Ультразвуковая чистка зубов</h4>
+      <p class="item-rules__text">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом. И первым вопросом, который возникает у новых хозяев – как определить возраст котенка. Появление в доме котенка приятное и радосное событие.</p>
+        <a href="#" class="item-rules__link">Читать больше</a>
+      </div>
+    </li>
+    <li class="rules__item item-dogs rules__item--active">
+      <img src="img/img-dogs-running.jpg" class="rules__img" alt="img of dogs">
+      <div class="rules__box">
+
+        <time datetime="29-08-2020">29.08.2020</time>
+        <h4 class="item-rules__title">Перед тем как завести собаку</h4>
+        <p class="item-rules__text">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом. И первым вопросом, который возникает у новых хозяев – как определить возраст котенка. Появление в доме котенка приятное и радосное событие.</p>
+        <a href="#" class="item-rules__link ">Читать больше</a>
+      </div>
+    </li>
+    <li class="rules__item item-graft ">
+        <img src="img/img-dog-graft.jpg" class="rules__img" alt="img about graft">
+      <div class="rules__box">
+        <time datetime="29-08-2020">29.08.2020</time>
+        <h4 class="item-rules__title">Когда привавать питомца?</h4>
+        <p class="item-rules__text">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом. И первым вопросом, который возникает у новых хозяев – как определить возраст котенка. Появление в доме котенка приятное и радосное событие.</p>
+        <a href="#" class="item-rules__link">Читать больше</a>
+      </div>
+    </li>
+  </ul>
+
+</div>
+
+</section>
+
+<!-- TODO MAP  -->
+
+<section class="map">
+
+  <div class="map__box">
+
+<div class="map__iframe">
+  <a href="https://yandex.com/maps/org/najot_ta_lim/206616411269/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Najot Ta'lim</a>
+  <a href="https://yandex.com/maps/10335/tashkent/category/educational_center/184106168/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Educational center in Tashkent</a>
+  <iframe src="https://yandex.com/map-widget/v1/-/CCUeMGbC3A" width="462" height="652"></iframe>
+</div>
+
+</div>
+
+<div class="map-fish">
+
+<h3 class="map__title">
+  Обратная связь
+</h3>
+
+<p class="map__text"> При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:
+</p>
+
+<form class="map__form" action="https://echo.htmlacademy.ru" method="POST">
+
+  <div class="input__box">
+    <label for="name" class="visually-hidden">name</label>
+    <input type="text" class="map__input" name="name" id="name" placeholder="Ваше имя" required="required"></div>
+  <div class="input__box">
+    <label for="email" class="visually-hidden">gmail</label>
+    <input type="email" class="map__input" name="email" id="email" placeholder="Email для обратной связи" required="required"></div>
+  <div class="input__box--textarea"><label for="info" class=" visually-hidden">apport</label>
+    <textarea class="map__texarea map__input" name="info" id="info" rows="4" placeholder="Опишите Ваш вопрос. " spellcheck="false"></textarea>
+  </div>
+
+    <button class="button map__button">Задать нам вопрос</button>
+
+  </form>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- TODO FOOTER   -->
+
+<footer class="footer">
+
+<div class="container">
+  <div class="footer__container ">
+<div class="footer__logo-box">
+  <a class="footer__logo" href="index.html">
+    <img src="img/logo-vet.svg" alt="logo of vet-clinic" width="158" height="77"></a>
+  </div>
+<div class="footer__box">
+  <ul class="footer__list footer__list-first">
+    <li class="footer__item">
+      <a class="footer__link" href="#">Главная</a>
+    </li>
+    <li class="footer__item">
+      <a class="footer__link" href="#">О Клинике</a>
+    </li>
+    <li class="footer__item">
+      <a class="footer__link" href="#">Наши Услуги</a>
+    </li>
+  </ul>
+  <ul class="footer__list">
+    <li class="footer__item">
+      <a class="footer__link" href="#">Полезные Статьи</a>
+    </li>
+    <li class="footer__item">
+      <a class="footer__link" href="#">FAQ</a>
+    </li>
+    <li class="footer__item">
+      <a class="footer__link" href="#">Контакты</a>
+    </li>
+  </ul>
+</div>
+<div class="footer__date">
+<div class="ts-header__time--time item-time ">
+  <span>Пн - Пт</span>
+  <time datetime="8:00">
+    8:00 - 18:00</time>
+  </div>
+  <div class="ts-header__time--time ">
+    <span>Сб - Вс</span>
+    <time datetime="8:00">
+      8:00 - 18:00</time> </div>
+    </div>
+<address class="footer__adress">г. Мариуполь,
+  <br>
+  проспект Победы, 48а</address>
+  <div class="footer__phone-box">
+    <ul class="footer__phone-list">
+      <li class="">
+        <a href="tel:0676347574" class="ts-header__link">(067) 634 -75 - 74</a>
+      </li>
+      <li class="">
+        <a href="tel:0637570131" class="ts-header__link">(0637) 57 - 01 - 31</a>
+      </li>
+      <li class="">
+        <a href="tel:0982664389" class="ts-header__link">(098) 266 - 43 - 89</a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<p class="copyright">© 2020 example. All Rights Reserved.</p>
+</div>
+
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
